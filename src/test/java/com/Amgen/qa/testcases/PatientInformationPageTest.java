@@ -29,6 +29,7 @@ public class PatientInformationPageTest extends TestBase {
 
 	@BeforeMethod
 	public void setup() throws InterruptedException {
+		// adding one code change
 		initalization();
 		eligibilityPage = new EligibilityPage();
 		standAlonePage = new StandAlonePage();
